@@ -96,3 +96,54 @@ Para alterar a direção da ordenação, passe uma lista para o argumento ascend
 
 (adicinar imagem aqui)
 
+#### Subconjuntos de colunas
+Podemos querer focar em apenas uma coluna
+
+(adicinar imagem aqui)
+
+#### Subconjunto de várias colunas
+Para selecionar várias colunas, você precisa de dois pares de colchetes.
+
+(adicinar imagem aqui)
+
+#### Subconjunto de linhas
+Existem muitas maneiras diferentes de fazer subconjuntos de linhas. A maneira mais comum de fazer isso é criando uma condição lógica para filtrar.
+
+(adicinar imagem aqui)
+
+Podemos usar a condição lógica dentro de colchetes para fazer subconjuntos de linhas que nos interessam.
+
+(adicinar imagem aqui)
+
+#### Sunconjuntos com base em dados de texto
+Também podemos fazer subconjuntos de linhas com base em dados de texto.
+
+(adicinar imagem aqui)
+
+#### Subconjuntos com base em datas
+Também podemos fazer subconjuntos de linhas com base em datas.
+
+(adicinar imagem aqui)
+
+#### Subconjuntos com base em múltiplas condições
+Para fazer um subconjunto das linhas que atendem a várias condições, você pode combinar condições usando operadores lógicos, como o operador "e" visto aqui. Isso significa que apenas as linhas que atendem a ambas as condições serão subconjugadas. Você também poderia fazer isso em uma única linha de código, mas também precisará adicionar parênteses em torno de cada condição.
+
+(adicinar imagem aqui)
+
+#### Subconjunto usando .isin()
+Se você quiser filtrar com base em múltiplos valores de uma variável categórica, a maneira mais fácil é usar o método isin. Isso aceita uma lista de valores para filtrar.
+
+(adicinar imagem aqui)
+
+### Adicionando colunas
+#### Adicionando uma nova coluna
+Criar e adicionar novas colunas pode ter vários nomes, incluindo mutação de um DataFrame, transformação de um DataFrame e engenharia de características. Digamos que queiramos adicionar uma nova caluna ao nosso DataFrame com a altura de cada cachorro em metros, em vez de centímetros. No lado esquerdo do sinal de igual, usamos colchetes com o nomeda nova coluna que queremos criar. No lado direito, temos o cálculo. Observe que tanto a coluna existente quanto a nova coluna que acabamos de criar estão no DataFrame.
+
+(adicinar imagem aqui)
+
+#### Múltiplas manipulações
+O verdadeiro poder do pandas se revela quando você combina todas as habilidades que aprendeu até agora.
+
+Vamos descobrir qual o peso dos cães com pelo menos 0.5 metros de altura, retorne o nome, altura em cm também.
+
+(adicinar imagem aqui)
